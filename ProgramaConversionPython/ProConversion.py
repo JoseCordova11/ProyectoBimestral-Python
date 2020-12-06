@@ -1,0 +1,15 @@
+print("Programa que convierte cantidades en metros a cm,km,ft,pul")
+print("")
+print("Ingrese la cantidad en metros")
+m = float(input())
+
+cm = (m * 100)
+km = (m * 0.001)
+ft = (m * 3.28)
+pul = (m* 39.37) 
+
+print(f"La cantidad en metros es: {m} ")
+print(f"La conversion en centimetros es: {cm} ")
+print(f"La conversion en kilometros es: {km}")
+print(f"La conversion en pies es: {ft}")
+print(f"La conversion en pulgadas es: {pul}")
